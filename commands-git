@@ -19,3 +19,6 @@ git push REMOTE-NAME LOCAL-BRANCH-NAME:REMOTE-BRANCH-NAME
 git push REMOTE-NAME TAG-NAME
 -- pour pousser toutes les balises
 git push REMOTE-NAME --tags
+
+Commande de pull du repository
+git pull
