@@ -22,3 +22,10 @@ git push REMOTE-NAME --tags
 
 Commande de pull du repository
 git pull
+
+Commande pour créer une branche
+git branch BranchName
+
+Commande pour switcher de branche
+git switch BranchName
+
