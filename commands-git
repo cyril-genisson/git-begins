@@ -1,0 +1,21 @@
+# Commande pour cloner un repository
+git clone git@github.com:cyril-genisson/NomRepository
+
+# Les 3 commandes de push
+1) on ajoute les fichiers modifiés
+git add file1 file2 ...
+
+2) on commit les modifications
+git commit -S -m "Mon commentaire de commit"
+
+3) on pousse les modification vers le répertoire distant
+-- pousse les commits vers la branche de travail actuelle
+git push (pousse vers la branche de travail actuelle
+
+git push REMOTE-NAME BRANCH-NAME
+git push REMOTE-NAME LOCAL-BRANCH-NAME:REMOTE-BRANCH-NAME
+
+-- pour pousser une seule balise
+git push REMOTE-NAME TAG-NAME
+-- pour pousser toutes les balises
+git push REMOTE-NAME --tags
